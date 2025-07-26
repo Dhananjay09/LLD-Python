@@ -134,6 +134,9 @@ if __name__ == "__main__":
 
     bike = Bike("MH-31-ZZ-1111")
     ticket2 = parking_lot.park_vehicle(bike)
+    ticket3 = parking_lot.park_vehicle(bike)
+    ticket4 = parking_lot.park_vehicle(car)
+    ticket5 = parking_lot.park_vehicle(Truck("MH-31-ZZ-1111"))
 
     # Unpark vehicles
     parking_lot.unpark_vehicle(ticket1.id)
